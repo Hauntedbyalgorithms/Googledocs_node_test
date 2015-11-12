@@ -1,5 +1,5 @@
 var GoogleSpreadsheet = require("google-spreadsheet");
-var my_sheet = new GoogleSpreadsheet('1hniE2JvbRD-wLiOo3yjSi5Pex5SsoerYTst2uurxP1U');
+var my_sheet = new GoogleSpreadsheet('1uv6bgFqD3qDVuv_YDSVqnB4yZpbtYsIMtsK9qp-coEA'); // Bibliographie
 
 var express = require('express');
 var app     = express();
@@ -23,11 +23,3 @@ app.get('/searching', function(req, res){
 
 server.listen(port);
 console.log('Server started on ' + port);
-
-
-
- 
-
-
-
-
